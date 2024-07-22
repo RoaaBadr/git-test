@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 8%);
+  min-height: 100vh;
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+/* Card Content */
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+p {
+  font-weight: 400;
+  margin-top: 2rem;
+}
+span {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+
+/* Card Design */
+main {
+  width: 100%;
+  /* Centerized Card */
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+.card {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1rem;
+  text-align: center;
+  width: 400px;
+  place-self: center;
+  padding: 2rem;
+}
+
+/* Buttons Design */
+.btns-group {
+/*Align buttons in the center of the card */
+  text-align: center;
+  display: grid;
+}
+.btns-group button {
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+
+  padding: 1rem 8rem;
+  border-radius: 0.5rem;
+  margin-top: 0.9rem;
+}
+/* buttons after hover */
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: hsl(0, 0%, 20%);
+}
